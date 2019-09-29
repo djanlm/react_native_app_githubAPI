@@ -28,7 +28,9 @@ target 'modulo06_1' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
+
+
 
   target 'modulo06_1Tests' do
     inherit! :search_paths
